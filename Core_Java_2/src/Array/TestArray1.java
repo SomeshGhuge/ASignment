@@ -9,7 +9,7 @@ instantiate, initialize and traverse an array.
 Java Program to illustrate how to declare, instantiate, initialize  
 and traverse the Java array.  
 */
-	class Testarray{  
+	public class TestArray1{  
 			public static void main(String args[]){  
 			int a[]=new int[5];//declaration and instantiation  
 			a[0]=10;//initialization  
@@ -22,5 +22,9 @@ and traverse the Java array.
 			System.out.println(a[i]);  
 			}
 	}  
+	
+	
+	
+
 
 
