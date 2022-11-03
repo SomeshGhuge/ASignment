@@ -12,9 +12,13 @@ public class create_for_user_the_arraylist_defined_type_for_employee {
           while (itr.hasNext()) {
 		  System.out.println("employee list>>" + itr.next());
 		}
+          
 //by using for each loop
           for(Employee e1: arrayList) {
-			System.out.println("data is>>"+e1);
-		}}}
+			System.out.println("data is>>"+e1);    
+		
+          }   
+		}
+      }
 
 

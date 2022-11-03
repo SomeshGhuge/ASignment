@@ -14,6 +14,7 @@ public class Employee {
 	public void setLastname(String lastname) {
 		Lastname = lastname;
 	}
+	
 	public Employee(int id, String name, String salary) {
 		super();
 		this.id = id;
@@ -52,7 +53,10 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+		return "Employee [id=" + id + ", name=" + name + ", Lastname=" + Lastname+ ", salary=" + salary + "]";
 	}
+	
+	
+	
 
 }

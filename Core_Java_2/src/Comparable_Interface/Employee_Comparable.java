@@ -1,21 +1,24 @@
 package Comparable_Interface;
 
 public class Employee_Comparable implements Comparable<Employee_Comparable> { 
-    int id;
-String name;
-int salary; // custom objects
+  
+	int id;
+	String name;
+	int salary; // custom objects
+	
     public Employee_Comparable(int id, String name, int salary) {
-super();
-this.id = id;
-this.name = name;
-this.salary = salary;
-}
-               public int getId() {
-return id;
-}
-              public void setId(int id) {
-this.id = id;
-}
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+   
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
                 public String getName() {
 return name;
 }

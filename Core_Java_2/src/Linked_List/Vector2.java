@@ -15,7 +15,7 @@ public class Vector2 {
 		
 		System.out.println("new vector is="+vector);
 		
-		/*System.out.println("vector size="+vector.size());
+		System.out.println("vector size="+vector.size());
 		System.out.println("vector capacity="+vector.capacity());
-		System.out.println("index="+vector.get(2)); */
+		System.out.println("index="+vector.get(2)); 
 	}}
