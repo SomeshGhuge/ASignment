@@ -2,7 +2,7 @@ package Comparable_Interface;
 
 public class Employee{
 	
-    int id;
+int id;
 String name;
 int salary;
 public Employee(int id, String name, int salary) {

@@ -1,7 +1,8 @@
 package String;
 
 /* Q. Why String is immutable?
-    String is the immutable, once string object is created, it cannot change but new string object is created.
+    String is the immutable, once string object is created, 
+    it cannot change but new string object is created.
     Example:----->  */
 
 

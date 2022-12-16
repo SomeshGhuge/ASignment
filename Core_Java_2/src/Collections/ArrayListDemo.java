@@ -14,5 +14,6 @@ public class ArrayListDemo {
 		al.add(null);
 		al.add(null);
 		System.out.println(al);
+		
 	}
 }

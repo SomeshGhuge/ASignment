@@ -8,7 +8,7 @@ public class Students implements Serializable {
 	private static final long serialVersionUID = 1L;
 	String firstname;
 	String lastname;
-	transient int salary;// you did not want ro show the salary
+	transient int salary;// you did not want to show the salary
 
 	public String getFirstname() {
 		return firstname;

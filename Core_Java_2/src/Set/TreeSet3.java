@@ -17,5 +17,14 @@ public class TreeSet3 {
 		treeSet1.add(10);
 		treeSet1.add(100);
 		System.out.println("second set="+treeSet1);
+		
+		try {
+		treeSet1.addAll(treeSet);	
+		System.out.println(treeSet1);
+		}catch(Exception e) {
+			System.out.println("Data type is not same thats why we cant add both tree set");
+		}finally {
+			System.out.println("Program is completed");
+		}
 	}}
 

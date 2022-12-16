@@ -10,8 +10,20 @@ public class HastSet4 {
 		hashSet.add("20");
 		hashSet.add("30"); // 13th element
 		hashSet.add(null);
-		Iterator<String> itr = hashSet.iterator();
+		
+		System.out.println("\n<-----1st Way----->");
+		Iterator<String> itr = hashSet.iterator();  // first way
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
-		}}}
+		}
+		
+		System.out.println("\n<-----2nd Way----->");
+		System.out.println(""+hashSet);// 2nd way
+		
+		System.out.println("\n<-----3rd Way----->");
+		for(Object s:hashSet) {  // 3rd way
+			System.out.println(s);
+		}
+		
+   }}
 

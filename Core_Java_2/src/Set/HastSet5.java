@@ -10,7 +10,7 @@ public static void main(String[] args) {
 		hashSet.add(30);
 		hashSet.add("velocity");
 		hashSet.add("pune");
-		
+		hashSet.add(30);
 		Iterator itr=hashSet.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());

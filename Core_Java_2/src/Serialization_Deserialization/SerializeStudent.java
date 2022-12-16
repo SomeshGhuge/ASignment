@@ -9,12 +9,12 @@ public class SerializeStudent {
 	public static void main(String[] args) {
 
 		Student s = new Student();
-		s.setFirstname("ajay");
-		s.setLastname("pawar");
-		s.setCity("pune");
+		s.setFirstname("Somesh");
+		s.setLastname("Ghuge");
+		s.setCity("Pune");
 
 		try {
-			FileOutputStream fos = new FileOutputStream("F:\\\\SOMESH\\\\Information Technology\\\\Softaware Course\\\\Java\\\\Velocity\\\\Java Backend Developer\\\\Practise\\\\w.txt");
+			FileOutputStream fos = new FileOutputStream("F:\\SOMESH\\Information Technology\\Softaware Course\\Java\\Velocity\\Java Backend Developer\\Practise\\w.txt");
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
 			oos.writeObject(s);//set the object
 			fos.close();
